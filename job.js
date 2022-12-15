@@ -1,6 +1,4 @@
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.27.1/slimselect.min.js"></script>
-<script>
   new SlimSelect({
     select: '#arbeitszeit',
     placeholder: 'Auswählen',
@@ -24,8 +22,7 @@
     var previewDiv = document.querySelector('#previewarbeitszeit');
     previewDiv.innerHTML = selValue2;
   });
-</script>
-<script>
+
   new SlimSelect({
     select: '#multiple',
     limit: 3,
@@ -46,16 +43,14 @@
    
       document.getElementById("kats").innerHTML = selected2
     }
-</script>
-<script>
+
   new SlimSelect({
     select: '#branche',
     placeholder: 'Auswählen',
     allowDeselect: true,
     showSearch: false
   })
-</script>
-<script>
+
   new SlimSelect({
     select: '#multiple3',
     placeholder: 'Auswählen',
@@ -74,17 +69,14 @@
     var selected4 = selected3.join(" </br> ")   ;    
       document.getElementById("previewvorteile").innerHTML = selected4
     }
-</script>
-<script>
+
   new SlimSelect({
     select: '#multiple5',
     placeholder: 'Auswählen',
     limit: 5,
     showSearch: false,
   })
-</script>
 
-<script>
   const checkBox = document.getElementById("Weltweit");
 const text3 = document.getElementById("previewremote");
 const text4 = document.getElementById("previewweltweit");
@@ -105,8 +97,7 @@ function myFunction() {
     hide.style.display = "block";
   }
 }
-</script>
-<script>
+
   // SlimSelect initialization
   new SlimSelect({
     select: '#vertrag',
@@ -137,11 +128,7 @@ function myFunction() {
     var previewDiv = document.querySelector('#previewvertrag');
     previewDiv.innerHTML = selValue;
   });
-</script>
 
-
-
-<script>
   // SlimSelect initialization
   new SlimSelect({
     select: '#level',
@@ -172,11 +159,7 @@ function myFunction() {
     var previewDiv = document.querySelector('#previewjoblevel');
     previewDiv.innerHTML = selValue;
   });
-</script>
 
-
-
-<script>
   const currency = document.getElementById("currency");
   currency.addEventListener("change", gehalt);
   const interval = document.getElementById("interval");
@@ -191,8 +174,7 @@ function myFunction() {
     //Setting Value 
     document.getElementById("previewmoney").innerHTML = selValue4 + ' ' + selValue5;
   }
-</script>
-<script>
+
   const historie = document.getElementById("stellenhistorie");
   historie.addEventListener("change", singleSelectChangeText4);
 
@@ -203,8 +185,7 @@ function myFunction() {
     //Setting Value
     document.getElementById("previewhistorie").innerHTML = selValue6;
   }
-</script>
-<script>
+
   var requirement = document.getElementById('requirement');
   var mirror = document.getElementById('mirror');
   var jobtitel = document.getElementById('jobtitel');
@@ -231,8 +212,7 @@ function myFunction() {
   max.addEventListener('input', function(event) {
     previewmax.innerText = event.target.value.split('').join('');
   });
-</script>
-<script>
+
   var previewbutton = document.getElementById("previewbutton");
   previewbutton.addEventListener("click", content);
 
@@ -241,8 +221,7 @@ function myFunction() {
     //Setting Value
     document.getElementById("richy").innerHTML = anzeigentext;
   }
-</script>
-<script>
+
   var previewbutton = document.getElementById("previewbutton");
   previewbutton.addEventListener("click", bewerbung);
 
@@ -256,8 +235,7 @@ function myFunction() {
       document.getElementById("previewbewerbung").href = link + bewerbungsform;
     }
   }
-</script>
-<script>
+
   const logo = document.getElementById("file");
   logo.addEventListener("change", preview);
 
@@ -265,8 +243,7 @@ function myFunction() {
     //Setting Value
     document.getElementById("previewlogo").src = window.URL.createObjectURL(this.files[0]);
   }
-</script>
-<script>
+
 const stand = document.getElementById("radio1");
   stand.addEventListener("click", Header);
 
@@ -285,8 +262,7 @@ const feat = document.getElementById("radio2");
       standard.style.display = "block";
     }
   }
-  </script>
-<script>
+
   // SlimSelect initialization
   new SlimSelect({
     select: '#stellenhistorie',
@@ -317,6 +293,6 @@ const feat = document.getElementById("radio2");
     var previewDiv = document.querySelector('#previewhistorie');
     previewDiv.innerHTML = selValue;
   });
-</script>
+
 
 
